@@ -187,8 +187,34 @@ line-height: 44px;
 .seccion-4 {
   background-color: black;
   color:white;
+  padding: 5%;
+  display: flex;
+align-items: center;
+
+    justify-content: center;
+}
+
+.contenedor-formulario{
+display: flex;
+flex-direction: column;
+align-content: center;
 
 }
+@media (min-width: 800px) { 
+  .contenedor-formulario{
+    display: flex;
+    flex-direction:row;
+    padding: 5%;
+    
+    }
+}
+
+.titulo-formulario{
+padding: 5%;
+margin: auto;
+
+}
+
 
 .contenedor-redes-sociales{
 display: flex;
